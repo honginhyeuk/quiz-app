@@ -1,0 +1,2766 @@
+[
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "1",
+        "infoQuestion": "Where do you indicate that the useful life of the asset sub-number is identical to the useful life of the main asset?",
+        "infoChoice": [
+            "In the asset master record of the main asset",
+            "In the screen layout of the asset master record",
+            "In the screen layout of the depredation area",
+            "In the account determination of the asset class"
+        ],
+        "infoAnswer": "C",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "2",
+        "infoQuestion": "Which closing activities are used in external reporting as per SAP best practices?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "Perform valuations of open items in foreign currency.",
+            "Update product cost estimates.",
+            "Execute the plan cost center assessment cycle.",
+            "Reclassify receivables and payables."
+        ],
+        "infoAnswer": [
+            "A",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "3",
+        "infoQuestion": "You define custom currency type Z1 for your company code. Which currency types must be stored in the Data Entry view?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "Document currency",
+            "Custom currency type Z1",
+            "Company code currency",
+            "Object currency"
+        ],
+        "infoAnswer": [
+            "A",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "4",
+        "infoQuestion": "You need to enter a percentage rate in the terms of payment to calculate_____ Please choose the correct answer.",
+        "infoChoice": [
+            "Invoice discount",
+            "Cash discount",
+            "Credit amount",
+            "Debit amount"
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "5",
+        "infoQuestion": "How do you configure depreciation areas in SAP S/4HANA?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "Assign a ledger group to each depreciation area.",
+            "Ensure depreciation areas always post to the general ledger.",
+            "Assign depreciation area 01 to the leading ledger. Ensure each accounting principle is assigned to a depreciation area."
+        ],
+        "infoAnswer": [
+            "A",
+            "B"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "6",
+        "infoQuestion": "Which of the following are possible reasons that an invoice would not be paid?\nThere are 3 correct answers to this question.",
+        "infoChoice": [
+            "The payment amount is less than the minimum amount specified for a payment.",
+            "The discount period has expired.",
+            "An invalid house bank is selected.",
+            "The invoice has a debit balance."
+        ],
+        "infoAnswer": [
+            "A",
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "7",
+        "infoQuestion": "Which deployment options exist for SAP S4HANA?\nNote: There are 3 correct answers to this question.",
+        "infoChoice": [
+            "Hybrid deployment",
+            "Central hub deployment",
+            "On-premise deployment",
+            "Agile deployment",
+            "Cloud deployment"
+        ],
+        "infoAnswer": [
+            "A",
+            "C",
+            "E"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "8",
+        "infoQuestion": "Which business partner characteristic is mapped to the customer and supplier account groups?\nPlease choose the correct answer.",
+        "infoChoice": [
+            "Business partner category",
+            "Business partner type",
+            "Business partner role",
+            "Business partner grouping"
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "9",
+        "infoQuestion": "When you create multiple similar asset master records, which of the following fields allow you to make separate entries for each individual asset?\nThere are 3 correct answers to this question.",
+        "infoChoice": [
+            "inventory number",
+            "Cost center",
+            "Description of the asset",
+            "License plate number"
+        ],
+        "infoAnswer": [
+            "A",
+            "B",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "10",
+        "infoQuestion": "Within the line items of Fl documents, what does the posting key control?\nNote: There are 3 correct answers to this question.",
+        "infoChoice": [
+            "The account type to which the line item can be posted",
+            "Whether the item is posted with reference to primary or secondary cost element",
+            "The field status of additional details",
+            "The account group to which the line item can be posted",
+            "Whether the item is posted as a debit or credit"
+        ],
+        "infoAnswer": [
+            "A",
+            "C",
+            "E"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "11",
+        "infoQuestion": "You are creating an asset master record by copying another asset, and you notice that the inventory number is copied over. Which setting do you make to ensure the inventory number is NOT copied over when you create a new asset via copy?\nPlease choose the correct answer.",
+        "infoChoice": [
+            "Remove the main asset indicator in screen layout maintenance.",
+            "Remove the asset class indicator in screen layout maintenance.",
+            "Remove the subnumber indicator in screen layout maintenance.",
+            "Remove the reference indicator in screen layout maintenance."
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "12",
+        "infoQuestion": "Which of the following components make up an archiving object?\nThere are 3 correct answers to this question.",
+        "infoChoice": [
+            "Data declaration part",
+            "Programs",
+            "Variables",
+            "Customizing settings"
+        ],
+        "infoAnswer": [
+            "A",
+            "B",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "13",
+        "infoQuestion": "What is the purpose of the reorganization of segments?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "Enables segment deletion.",
+            "Enables merge of segments.",
+            "Enables segment derivation.",
+            "Enables segment reassignments."
+        ],
+        "infoAnswer": [
+            "B",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "14",
+        "infoQuestion": "What must you do to create new validations and substitutions?\nNote There are 2 correct answers to this question.",
+        "infoChoice": [
+            "Deactivate all former validations and substitutions",
+            "Select the relevant call-up point",
+            "Choose the chart of accounts",
+            "Define the area of application"
+        ],
+        "infoAnswer": [
+            "B",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "15",
+        "infoQuestion": "Which of the following is the first step in the variant principle?\nPlease choose the correct answer.",
+        "infoChoice": [
+            "Create multiple variants",
+            "Determine values for the variant",
+            "Assign the variant to the objects",
+            "Define variant"
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "16",
+        "infoQuestion": "Financial statement versions consist of a maximum of 10 hierarchy levels. Determine whether this statement is true or false.",
+        "infoChoice": [
+            "True",
+            "False"
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "17",
+        "infoQuestion": "You forgot to add a new general ledger account into the financial statement version. What impact does this have on the net profit and net loss?\nPlease choose the correct answer.",
+        "infoChoice": [
+            "The balance of the new account is added to the non-assigned section and is included in the calculation.",
+            "The balance of the new account is added to the notes in the financial statement item section and is included in the calculation.",
+            "The balance of the new account is added to the notes in the financial statement item section and is excluded from the calculation.",
+            "The balance of the new account is added to the non-assigned section and is excluded from the calculation."
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "18",
+        "infoQuestion": "What dunning-related data do you maintain on the business partner master record?\nThere are 3 correct answers to this question.",
+        "infoChoice": [
+            "Dunning key",
+            "Dunning procedure",
+            "Dunning interval",
+            "Dunning block",
+            "Dunning area"
+        ],
+        "infoAnswer": [
+            "B",
+            "D",
+            "E"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "19",
+        "infoQuestion": "What object determines the number range for business partner master data?",
+        "infoChoice": [
+            "Business partner grouping",
+            "Business partner type",
+            "Business partner role",
+            "Business partner category"
+        ],
+        "infoAnswer": "A",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "20",
+        "infoQuestion": "What is the difference between the ledger approach and the accounts approach to parallel valuation in Asset Accounting?\nPlease choose the correct answer.",
+        "infoChoice": [
+            "In the ledger approach, you maintain additional depreciation areas to post the delta valuation of each accounting principle, unlike the accounts approach.",
+            "In the accounts approach, you assign a completely separate set of accounts for each accounting principle, unlike the ledger approach.",
+            "In the ledger approach, you assign a ledger group to every depreciation area, unlike the accounts approach.",
+            "In the accounts approach, you define a technical clearing account for integrated asset acquisitions, unlike the ledger approach."
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "21",
+        "infoQuestion": "On which levels can you maintain field status controls for business partners (BP)?\nThere are 3 correct answers to this question.",
+        "infoChoice": [
+            "BP type",
+            "BP role",
+            "BP category",
+            "Company code",
+            "Client"
+        ],
+        "infoAnswer": [
+            "A",
+            "B",
+            "E"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "22",
+        "infoQuestion": "You are posting an incoming payment against an invoice. Which document values does the user tolerance group control?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "The cash discount percentage allowed for the complete document",
+            "The cash discount amount (absolute value) allowed for a line item",
+            "The total amount (sum of all line items) allowed to be posted",
+            "The payment amount allowed for each customer open item"
+        ],
+        "infoAnswer": [
+            "B",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "23",
+        "infoQuestion": "What does the document splitting do?\nPlease choose the correct answer.",
+        "infoChoice": [
+            "It enriches all revenue account lines with the defined splitting characteristics.",
+            "It enriches all relevant balance sheet account lines with the defined splitting characteristics.",
+            "It enriches all secondary cost element account lines with the defined splitting characteristics.",
+            "It enriches all profit and loss account lines with the defined splitting characteristics."
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "24",
+        "infoQuestion": "Your customer wants to use data aging for the universal journal. Which criteria can you use to decide which data is moved to the historical partition?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "Document type",
+            "Account type",
+            "Ledger",
+            "Company code"
+        ],
+        "infoAnswer": [
+            "A",
+            "B"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "25",
+        "infoQuestion": "A document has several line items, with different reason codes entered. For the automatic payment, which correspondence type does the system choose?\nChoose the correct answer.",
+        "infoChoice": [
+            "The one in the line item with the largest amount",
+            "The one in the first line item",
+            "The one assigned to the tolerance group",
+            "The system prompts for the user to assign one"
+        ],
+        "infoAnswer": "C",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "26",
+        "infoQuestion": "Which edition of SAP S/4HANA introduced the universal journal?\nPlease choose the correct answer.",
+        "infoChoice": [
+            "SAP S/4HANA 1511",
+            "SAP S/4HANA Finance 1503",
+            "SAP S/4HANA Cloud",
+            "SAP Business Suite powered by SAP HANA"
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "27",
+        "infoQuestion": "Which of the following logistic processes are involved in asset acquisition with materials management (MM)?\nThere are 3 correct answers to this question.",
+        "infoChoice": [
+            "Purchase order",
+            "Goods receipt",
+            "Inventory receipt",
+            "Purchase requisition"
+        ],
+        "infoAnswer": [
+            "A",
+            "B",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "28",
+        "infoQuestion": "Where can an SAP Fiori end user change the theme of their launchpad?\nPlease choose the correct answer.",
+        "infoChoice": [
+            "In the UI theme designer",
+            "In the Tile Group area of the launchpad designer",
+            "In the Me area of the launchpad",
+            "In the Tile Catalog area of the launchpad designer"
+        ],
+        "infoAnswer": "C",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "29",
+        "infoQuestion": "Which of the following parameters can be changed on a time-dependent basis?\nThere are 3 correct answers to this question.",
+        "infoChoice": [
+            "Depreciation start date",
+            "Useful life (year or period)",
+            "Depreciation key",
+            "Variable depreciation portion"
+        ],
+        "infoAnswer": [
+            "B",
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "30",
+        "infoQuestion": "How can you post accruals?\nNote: There are 3 correct answers to this question.",
+        "infoChoice": [
+            "Execute the periodic accrual run.",
+            "Reclassify the receivables and payables.",
+            "Use the recurring entry program.",
+            "Post manually at the end of a period, quarter, or year.",
+            "Run the depreciation program."
+        ],
+        "infoAnswer": [
+            "A",
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "31",
+        "infoQuestion": "True or False: SAP S/4HANA replaces SAP ERP, and development and support are shifted completely to it.",
+        "infoChoice": [
+            "False",
+            "True"
+        ],
+        "infoAnswer": "A",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "32",
+        "infoQuestion": "How can you perform transfers of assets between company codes with different charts of depreciation?\nPlease choose the correct answer.",
+        "infoChoice": [
+            "Enter depreciation area mapping during intercompany transfer posting.",
+            "Correct depreciation area assignment in the asset master record after posting.",
+            "Assign the group chart of depreciation to the relevant fixed assets.",
+            "Configure the cross-company depreciation areas in customizing."
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "33",
+        "infoQuestion": "Which activities can you perform with a recurring journal entry?\nNote: There are 2 correct answers to this question",
+        "infoChoice": [
+            "Create monthly postings on any date of a month.",
+            "Obtain an overview of related future postings.",
+            "Set rules to distribute amounts to be posted.",
+            "Determine the number of postings."
+        ],
+        "infoAnswer": [
+            "A",
+            "B"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "34",
+        "infoQuestion": "Which statements best describe a profit center?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "It is the only object from which segments can be uniformly derived.",
+            "It is the only object that can be uniformly derived using segments.",
+            "It is an element for which separate balance sheet and P&L statements can be created. whether segments are being maintained or not.",
+            "It has to be used simultaneously with segments to create separate balance sheet and P&L statements."
+        ],
+        "infoAnswer": [
+            "A",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "35",
+        "infoQuestion": "In addition to the local and global currency in the universal journal, how many freely defined currencies can you assign per company code and ledger.",
+        "infoChoice": [
+            "8",
+            "3",
+            "5",
+            "10"
+        ],
+        "infoAnswer": "A",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "36",
+        "infoQuestion": "Your customer wants to start using SAP S/4HANA line-of-business solutions. Which of these solutions help you run human resource management processes?\nNote: There are 2 correct answers to this question.",
+        "infoChoice": [
+            "SAP Hybris",
+            "SAP Success Factors",
+            "SAP Fieldglass",
+            "SAP Concur"
+        ],
+        "infoAnswer": [
+            "B",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "37",
+        "infoQuestion": "Your customer wants the document numbers for two separate document types to share the same number range. How can you achieve this?",
+        "infoChoice": [
+            "Create two external number ranges with the same range and assign one to each of the relevant document types.",
+            "Create a substitution rule that updates the document number based on the range you assign in the rule definition.",
+            "Enter the same document number range in the customizing definition of both document types.",
+            "Create two internal number ranges with the same range and assign one each to the relevant document types."
+        ],
+        "infoAnswer": "C",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "38",
+        "infoQuestion": "Which requirements do you need to fulfill to use data aging for Finance in the SAP S/4HANA system?\nThere are 3 correct answers to this question.",
+        "infoChoice": [
+            "Define the logical file path as a global path for data aging.",
+            "Activate data aging for your company code.",
+            "Activate aging on SAP HANA.",
+            "Add required authorizations for data aging to your role.",
+            "Switch on the data aging business function."
+        ],
+        "infoAnswer": [
+            "C",
+            "D",
+            "E"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "39",
+        "infoQuestion": "What do you need to do to configure a new exchange rate type in SAP S/4HANA?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "Specify a purpose for the exchange rate type.",
+            "Set up the relationship between currencies ",
+            "using translation ratios.",
+            "Maintain exchange rates daily.",
+            "Specify the direct or indirect quotation."
+        ],
+        "infoAnswer": [
+            "A",
+            "B"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "40",
+        "infoQuestion": "Which data can you edit in the payment proposal?\nNote: There are 3 correct answers to this question.",
+        "infoChoice": [
+            "Invoice amount",
+            "Cash discount",
+            "Payee",
+            "Payment block",
+            "House bank"
+        ],
+        "infoAnswer": [
+            "B",
+            "D",
+            "E"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "41",
+        "infoQuestion": "What are the results when you post an outgoing partial payment?\nNote: There are 2 correct answers to this question.",
+        "infoChoice": [
+            "A payment block is set on the invoice.",
+            "The initial invoice is cleared.",
+            "The initial invoice remains open.",
+            "A payment is created with reference to the invoice."
+        ],
+        "infoAnswer": [
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "42",
+        "infoQuestion": "How does SAP S/4HANA reduce system \ncomplexity and improve system efficiency?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "By providing application code that deals with aggregates and indexes",
+            "By providing views of data at runtime from the same source tables",
+            "By removing application code that deals with aggregates and indexes",
+            "By removing views of data at runtime from the same source tables"
+        ],
+        "infoAnswer": [
+            "B",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "43",
+        "infoQuestion": "Where is the billing document created?",
+        "infoChoice": [
+            "Sales and Distribution",
+            "Financial Accounting",
+            "Accounting",
+            "Materials Management"
+        ],
+        "infoAnswer": "A",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "44",
+        "infoQuestion": "Which currency valuation program is replaced by FAGL_FCV?\nPlease choose the correct answer.",
+        "infoChoice": [
+            "FAGL_VALUATION",
+            "SAPF100",
+            "FAGL_FC_VALUATION",
+            "SAPF130K"
+        ],
+        "infoAnswer": "C",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "45",
+        "infoQuestion": "In Asset Accounting, which object do you use to handle separate valuation for parallel accounting?",
+        "infoChoice": [
+            "Depreciation key",
+            "Valuation area",
+            "Depreciation area",
+            "Chart of depreciation"
+        ],
+        "infoAnswer": "C",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "46",
+        "infoQuestion": "For reporting purposes, your client would like to present information about customer postings that are NOT reflected in the G/L. Which special G/L type do you recommend?",
+        "infoChoice": [
+            "Statistical postings",
+            "Bill of exchange",
+            "Free offsetting entries",
+            "Noted items"
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "47",
+        "infoQuestion": "What is the purpose of the group account number in General Ledger account master data maintenance?",
+        "infoChoice": [
+            "It defaults the number interval that is applied for the G/L account number in the company code.",
+            "It acts as the key to identify the balance sheet and profit-and-loss accounts in the financial statement version.",
+            "It determines the fields in the entry screen when you create or update a master record in the company code",
+            "it is used for cross-company-code reporting if the company codes use different charts of account."
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "48",
+        "infoQuestion": "What account types can you use to classify general ledger accounts in SAP S/4HANA?\nThere are 3 correct answers to this question.",
+        "infoChoice": [
+            "Secondary costs",
+            "Field status group",
+            "Balance sheet",
+            "Non-operating expense or income",
+            "Reconciliation accounts"
+        ],
+        "infoAnswer": [
+            "A",
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "49",
+        "infoQuestion": "Which prerequisite must be met by the technical clearing account for integrated asset acquisition?",
+        "infoChoice": [
+            "The account is assigned in the asset account ",
+            "determination for each valid depredation area.",
+            "The account is a reconciliation balance sheet account for fixed assets.",
+            "The account is a profit-and-loss account that must be open item managed.",
+            "The account is created for all active company codes of the client."
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "50",
+        "infoQuestion": "After you collect data in the Intercompany Reconciliation tool, what are the next steps of the reconciliation process?\nPlease choose the correct answer.",
+        "infoChoice": [
+            "A.",
+            "Store the data",
+            "Present reconciled and non-reconciled data",
+            "Communicate differences.",
+            "Post the correction documents.",
+            "B.",
+            "Present reconciled and non-reconciled data",
+            "Post the correction documents.",
+            "Store the data.",
+            "Communicate differences.",
+            "C.",
+            "Store the data.",
+            "Present reconciled and non-reconciled data.",
+            "Post the correction documents.",
+            "Communicate differences.",
+            "D.",
+            "Post the correction documents.",
+            "Store the data.",
+            "Present reconciled and non-reconciled data.",
+            "Communicate differences."
+        ],
+        "infoAnswer": "A",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "51",
+        "infoQuestion": "What is controlled by the terms of payment?\nThere are 3 correct answers to this question.",
+        "infoChoice": [
+            "Default payment method",
+            "Determination of the baseline date",
+            "Allowed account type",
+            "Account for cash discount received",
+            "Setting for net procedure"
+        ],
+        "infoAnswer": [
+            "A",
+            "B",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "52",
+        "infoQuestion": "You are asked to explain the assets under construction functionality in SAP S/4HAN",
+        "infoChoice": [
+            "What should you highlight?",
+            "There are 2 correct answers to this question.",
+            "It is possible to post credit memos, even after assets under construction are fully capitalized.",
+            "It is impossible to use assets under construction with Investment Management.",
+            "It is possible to calculate and post depreciation in the balance sheet depreciation area for assets under construction.",
+            "It is possible to post special tax depreciation and investment support for assets under construction."
+        ],
+        "infoAnswer": [
+            "A",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "53",
+        "infoQuestion": "Which of the following parameters can you define within a dunning procedure?\nNote : There are 2 correct answers to this question.",
+        "infoChoice": [
+            "Line item total period",
+            "Number of dunning levels",
+            "Company code",
+            "Line item grace period"
+        ],
+        "infoAnswer": [
+            "B",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "54",
+        "infoQuestion": "Which of the following is an example of an automatic offsetting entry?\nPlease choose the correct answer.",
+        "infoChoice": [
+            "Posting of a guarantee of payment",
+            "Down payment request",
+            "Bank posting of a received down payment"
+        ],
+        "infoAnswer": "A",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "55",
+        "infoQuestion": "What is the recommended organizational unit for cost-of-sales accounting?\nPlease choose the correct answer",
+        "infoChoice": [
+            "Functional area",
+            "Sales area",
+            "Business area",
+            "Controlling area"
+        ],
+        "infoAnswer": "A",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "56",
+        "infoQuestion": "Customers using classic General Ledger \nAccounting can use RFBILAOO to create a financial statement at which organization levels?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "Company area level",
+            "Client level",
+            "Segment level",
+            "Business area level"
+        ],
+        "infoAnswer": [
+            "A",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "57",
+        "infoQuestion": "In your system, you currently perform manual outgoing payments and you want to use the automatic payment program. Which settings must you maintain as part of the configuration of the automatic payment program?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "Bank determination",
+            "Special G/L indicators",
+            "Paying company codes",
+            "Payment terms"
+        ],
+        "infoAnswer": [
+            "A",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "58",
+        "infoQuestion": "SAP S/4HANA is the digital core of the intelligent enterprise. Which applications from the SAP portfolio integrate with SAP S/4HANA to help you perform human resource management?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "SAP Success Factors",
+            "SAP Fieldglass",
+            "SAP Ariba",
+            "SAP C/4HANA"
+        ],
+        "infoAnswer": [
+            "A",
+            "B"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "59",
+        "infoQuestion": "What are some features of SAP HANA?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "SAP HANA is optimized to organize data using column stores.",
+            "SAP HANA is built on a hierarchical data model architecture.",
+            "SAP HANA is optimized to work with aggregates and index tables.",
+            "SAP HANA allows transactional and analytical processing off the same tables."
+        ],
+        "infoAnswer": [
+            "A",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "60",
+        "infoQuestion": "You need to make the line item text field mandatory during document entry. Which objects should you analyze to fulfill this request?\nNote: There are 2 correct answers to this question.",
+        "infoChoice": [
+            "G/L account",
+            "Account group",
+            "Document type",
+            "Posting key"
+        ],
+        "infoAnswer": [
+            "A",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "61",
+        "infoQuestion": "Identify the steps performed during the general ledger closing operations for the fiscal year.\nThere are 3 correct answers to this question.",
+        "infoChoice": [
+            "The balance carry forward program is run.",
+            "Vendor invoices are posted.",
+            "Accruals are carried out.",
+            "Foreign currency documents are valuated."
+        ],
+        "infoAnswer": [
+            "A",
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "62",
+        "infoQuestion": "Which of the following currency types can you set in customizing activity \"define setting for ledgers and currency type\"?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "Transaction currency",
+            "Group currency",
+            "Local currency",
+            "Material ledger currency"
+        ],
+        "infoAnswer": [
+            "B",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "63",
+        "infoQuestion": "Which field can you change on a posted invoice?",
+        "infoChoice": [
+            "Payment terms // Base line date",
+            "Special G/L indicator",
+            "Cost center",
+            "Tax code"
+        ],
+        "infoAnswer": "A",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "64",
+        "infoQuestion": "Which of the following standard correspondence types can you use to exchange information with customers and suppliers?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "Dunning letters",
+            "Invoices",
+            "Payment notices",
+            "Bill of exchange charges statements"
+        ],
+        "infoAnswer": [
+            "A",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "65",
+        "infoQuestion": "Which attributes should you consider when defining asset number ranges?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "Each asset class can have either an internal or external number range.",
+            "Asset number ranges are defined for asset classes and are company code specific.",
+            "Each asset number range has to be assigned to a unique asset class.",
+            "Asset number ranges are defined at chart of depreciation level."
+        ],
+        "infoAnswer": [
+            "A",
+            "B"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "66",
+        "infoQuestion": "You configured Asset Accounting for your company code with three depreciation areas that post in real time and corresponding depreciation areas to track group currency values. When you post an external acquisition, how many documents are created?",
+        "infoChoice": [
+            "6",
+            "3",
+            "4",
+            "1"
+        ],
+        "infoAnswer": "C",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "67",
+        "infoQuestion": "Which information is checked by the system before a general ledger account k archived?",
+        "infoChoice": [
+            "The Open item Management indicator is set in master data",
+            "The Blocked for Posting indicator is set in master data.",
+            "The Mark for Deletion indicator is set in master data",
+            "The assigned group account is already archived."
+        ],
+        "infoAnswer": "C",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "68",
+        "infoQuestion": "You are configuring depreciation areas in Asset Accounting. Which of the following settings is NOT permitted?",
+        "infoChoice": [
+            "Area posts in real time",
+            "Area posts revaluation only",
+            "Area posts depreciation only",
+            "Area does not post"
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "69",
+        "infoQuestion": "What is the name of the leading ledger that SAP provides with the standard system?",
+        "infoChoice": [
+            "3L",
+            "1L",
+            "2L",
+            "OL"
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "70",
+        "infoQuestion": "Which business partner categories are available to manage relationships?\nNote: There are 2 correct answers to this question.",
+        "infoChoice": [
+            "Organization",
+            "Bank",
+            "Customer",
+            "Person"
+        ],
+        "infoAnswer": [
+            "A",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "71",
+        "infoQuestion": "Which of the following procedures are available to check the balance of receivables and payables in balance confirmations?\nThere are 3 correct answers to this question.",
+        "infoChoice": [
+            "Balance request",
+            "Balance adjustment",
+            "Balance confirmation",
+            "Balance notification"
+        ],
+        "infoAnswer": [
+            "A",
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "72",
+        "infoQuestion": "What is the purpose of period interval 3 when you define open and closed periods?",
+        "infoChoice": [
+            "It is used for special period posting.",
+            "It is used for posting from CO to FI.",
+            "It is used for the authorization object for posting periods.",
+            "It is used for period lock in special purpose ledger."
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "73",
+        "infoQuestion": "You are configuring accrual types for the accrual engine. For which postings is account determination required?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "Opening and Closing Posting only",
+            "Closing Posting only",
+            "Periodic only",
+            "Opening Posting only"
+        ],
+        "infoAnswer": [
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "74",
+        "infoQuestion": "You want to edit a dunning proposal. Which actions can you perform to edit a dunning proposal?\nThere are 3 correct answers to this question.",
+        "infoChoice": [
+            "Block a line item.",
+            "Change the dunning data of an account.",
+            "Lower the dunning level of an item.",
+            "Change a document.",
+            "Block an account."
+        ],
+        "infoAnswer": [
+            "A",
+            "C",
+            "E"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "75",
+        "infoQuestion": "Which of the following special G/L transactions are noted items?\nNote: There are 2 correct answers to this question.",
+        "infoChoice": [
+            "Down payment",
+            "Guarantee of payment",
+            "Down payment request",
+            "Bill of exchange payment request"
+        ],
+        "infoAnswer": [
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "76",
+        "infoQuestion": "The variant principle is used in SAP S/4HANA to assign particular properties to one or more objects. How many steps does the variant principle have?",
+        "infoChoice": [
+            "3",
+            "5",
+            "4",
+            "1"
+        ],
+        "infoAnswer": "A",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "77",
+        "infoQuestion": "In your SAP S/4HANA system, you report financial values for three separate accounting principles. You post an acquisition for an asset that is capitalized in a single accounting principle. If you use the application to post integrated asset acquisitions, how many documents will the system post?",
+        "infoChoice": [
+            "3",
+            "4",
+            "2",
+            "1"
+        ],
+        "infoAnswer": "C",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "78",
+        "infoQuestion": "Which of the following are SAP Fiori design \nprinciples?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "Routine",
+            "Responsive",
+            "Role-based",
+            "Rational"
+        ],
+        "infoAnswer": [
+            "B",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "79",
+        "infoQuestion": "Which of the following steps are parts of the process of configuring the payment program?\nThere are 3 correct answers to this question.",
+        "infoChoice": [
+            "Configure the house banks",
+            "Configure the payment methods for each company code",
+            "Configure the G/L account field status for document entry",
+            "Configure the paying company codes"
+        ],
+        "infoAnswer": [
+            "A",
+            "B",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "80",
+        "infoQuestion": "You can use Boolean logic to define different types of logical statements. Determine whether this statement is true or false.",
+        "infoChoice": [
+            "False",
+            "True"
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "81",
+        "infoQuestion": "Which of the following retirement types is referred to as scrapping?",
+        "infoChoice": [
+            "Partial retirement without revenue and without customer",
+            "Unplanned depreciation of remaining value",
+            "Complete retirement with revenue but without customer",
+            "Complete integrated asset retirement"
+        ],
+        "infoAnswer": "A",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "82",
+        "infoQuestion": "Which items can you clear with the automatic clearing program?",
+        "infoChoice": [
+            "Items with withholding tax entries",
+            "Bank transaction items",
+            "Statistical postings",
+            "Noted items"
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "83",
+        "infoQuestion": "You want to define a validation for the combination of general ledger account and cost center. For which call-up point do you define this validation?\nPlease choose the correct answer.",
+        "infoChoice": [
+            "Document header",
+            "Cost of sales accounting",
+            "Complete document",
+            "Document line"
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "84",
+        "infoQuestion": "In which items of a financial statement version can you find values related to accounts for sales deductions and material expenses?",
+        "infoChoice": [
+            "Sales deductions in loss item",
+            "   Material expenses in liabilities item",
+            "Sales deductions in liabilities item",
+            "   Material expenses in loss item",
+            "Sales deductions in assets item",
+            "   Material expenses in loss item",
+            "Sales deductions in loss item",
+            "   Material expenses in loss item"
+        ],
+        "infoAnswer": "A",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "85",
+        "infoQuestion": "True or False: Anyone with an appropriate user name and password can log on to the SAP Fiori launchpad through a web browser.",
+        "infoChoice": [
+            "True",
+            "False"
+        ],
+        "infoAnswer": "A",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "86",
+        "infoQuestion": "For which special G/L indicator do you specify a target special G/L indicator?",
+        "infoChoice": [
+            "Customer down payment",
+            "Guarantee given",
+            "Vendor down payment request",
+            "Bill of exchange"
+        ],
+        "infoAnswer": "C",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "87",
+        "infoQuestion": "True or False: The only version of the public cloud edition of SAP S/4HANA a customer can be on is the latest released version.",
+        "infoChoice": [
+            "True",
+            "False"
+        ],
+        "infoAnswer": "A",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "88",
+        "infoQuestion": "You are configuring depreciation areas in Asset Accounting. Which of the following settings is NOT permitted?\nPlease choose the correct answer.",
+        "infoChoice": [
+            "Area posts depreciation only",
+            "Area does not post",
+            "Area posts in real time",
+            "Area posts revaluation only"
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "89",
+        "infoQuestion": "Which two reports should you use to create correspondence to and from customers and vendors to enable you to verify the balance of receivables and payables?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "SAPF130L",
+            "SAPF130D",
+            "SAPF130K",
+            "SAPF130E"
+        ],
+        "infoAnswer": [
+            "B",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "90",
+        "infoQuestion": "How many posting period intervals in SAP\nS/4HANA are used for postings of Financial Accounting (FI) and Controlling (CO)?",
+        "infoChoice": [
+            "3",
+            "16",
+            "2",
+            "12"
+        ],
+        "infoAnswer": "A",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "91",
+        "infoQuestion": "Which deployment option do you recommend to customers who want to always be on the latest release of SAP S/4HANA?",
+        "infoChoice": [
+            "SAP S/4HANA on-premise",
+            "SAP S/4HANA Finance",
+            "SAP S/4HANA with Central Finance",
+            "SAP S/4HANA Cloud"
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "92",
+        "infoQuestion": "Which SAP Fiori app type provides essential information about system master data and offers links for navigating between related objects?",
+        "infoChoice": [
+            "Transactional",
+            "Fact sheet",
+            "Configuration",
+            "Analytical"
+        ],
+        "infoAnswer": "C",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "93",
+        "infoQuestion": "For which activities can you use an extension\nledger?\nNote: There are 2 correct answers to this question.",
+        "infoChoice": [
+            "Configuration of custom fields for financial statements",
+            "Simulation of foreign currency valuation",
+            "Adjustments for consolidation purposes",
+            "Parallel valuation of depreciation areas"
+        ],
+        "infoAnswer": [
+            "B",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "94",
+        "infoQuestion": "What types of data are maintained for a house \nbank?\nNote: There are 2 correct answers to this question.",
+        "infoChoice": [
+            "General Ledger account",
+            "Overdraft limit",
+            "payment signatories",
+            "Data medium exchange (DME) details"
+        ],
+        "infoAnswer": [
+            "A",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "95",
+        "infoQuestion": "Identify the application areas where validations and substitutions can be used.\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "SD - Sales and Distribution",
+            "AA - Asset Accounting",
+            "CO - Cost Accounting",
+            "FI - Financial Accounting"
+        ],
+        "infoAnswer": [
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "96",
+        "infoQuestion": "On what basis does the system determine the period for the asset retirement?\nPlease choose the correct answer.",
+        "infoChoice": [
+            "Net book value",
+            "Asset value date (asset retirement date)"
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "97",
+        "infoQuestion": "There are four dunning program steps that can be performed during the automatic dunning\nprocedure as follows: Arrange these steps into the correct sequence.\nThere are 3 correct answers to this question.",
+        "infoChoice": [
+            "Change the dunning proposal.",
+            "Maintain the parameters.",
+            "Schedule the dunning run.",
+            "Start the dunning printout."
+        ],
+        "infoAnswer": [
+            "A",
+            "B",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "98",
+        "infoQuestion": "Identify the application areas where validations and substitutions can be used.\nThere are 3 correct answers to this question.",
+        "infoChoice": [
+            "SD - Sales and Distribution",
+            "CO - Cost Accounting",
+            "AA - Asset Accounting",
+            "FI - Financial Accounting"
+        ],
+        "infoAnswer": [
+            "B",
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "99",
+        "infoQuestion": "Which of the following can you use for multiple programs with variants that are to be processed \nautomatically?\nPlease choose the correct answer.",
+        "infoChoice": [
+            "Task list template",
+            "Online transactions",
+            "Flow definition",
+            "Remote tasks"
+        ],
+        "infoAnswer": "C",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "100",
+        "infoQuestion": "During which actions does the system assign the document number for Financial Accounting?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "Hold",
+            "Simulate",
+            "Post",
+            "Park"
+        ],
+        "infoAnswer": [
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "101",
+        "infoQuestion": "A message can contain up to six fields. \nDetermine whether this statement is true or false.",
+        "infoChoice": [
+            "True",
+            "False"
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "102",
+        "infoQuestion": "What does the document type control?\nThere are 3 correct answers to this question.",
+        "infoChoice": [
+            "Whether negative postings are permitted",
+            "Whether exchange rate difference is permitted",
+            "Which account types are allowed for postings",
+            "Which posting keys are allowed for postings",
+            "Whether postings to special periods are permitted"
+        ],
+        "infoAnswer": [
+            "A",
+            "C",
+            "E"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "103",
+        "infoQuestion": "What happens to the transaction figures when you post a normal reversal posting?",
+        "infoChoice": [
+            "They are increased.",
+            "They are reset.",
+            "They are deleted",
+            "They are cleared."
+        ],
+        "infoAnswer": "A",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "104",
+        "infoQuestion": "Delta postings can execute revaluation. \nDetermine whether this statement is true or false.",
+        "infoChoice": [
+            "False",
+            "True"
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "105",
+        "infoQuestion": "Which statements best describe a chart of depreciation?\nThere are 2 correct answers to this question.",
+        "infoChoice": [
+            "A chart of depreciation is company-code-specific; therefore, two company codes CANNOT use the same chart of depreciation.",
+            "A chart of depreciation is mandated by a country's statutory requirement and should be adopted as is.",
+            "A chart of depreciation contains multiple depreciation areas with a provision for addition and deletion of depreciation areas.",
+            "A chart of depreciation is a country-specific object that is delivered with SAP S/4HANA."
+        ],
+        "infoAnswer": [
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "106",
+        "infoQuestion": "In the integrated scenario for down payments, in what step of the process do you enter the down payment information?",
+        "infoChoice": [
+            "Goods receipt creation",
+            "Purchase order creation",
+            "Invoice verification",
+            "Down payment monitoring"
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "107",
+        "infoQuestion": "Which entries do you define when maintaining a G/L account?\nThere are 3 correct answers to this question.",
+        "infoChoice": [
+            "Account group",
+            "Profit center",
+            "Ledger assignment",
+            "Field status group",
+            "Account Type"
+        ],
+        "infoAnswer": [
+            "A",
+            "D",
+            "E"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "108",
+        "infoQuestion": "What data do you maintain in the chart of accounts sections of a General Ledger account?",
+        "infoChoice": [
+            "Authorization data",
+            "User data",
+            "Reconciliation data",
+            "Consolidation data"
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "109",
+        "infoQuestion": "How does the SAP HANA architecture improve SAP S/4HANA system performance?",
+        "infoChoice": [
+            "SAP HANA allows you to build aggregate tables on top of aggregates and, in addition, special versions of the database tables to support special applications.",
+            "SAP HANA makes extensive use of database indexes providing common access paths to data in order to improve access speed.",
+            "SAP HANA uses a structured hierarchical data model with a multitude of lean prebuilt aggregated tables to write efficient code.",
+            "SAP HANA organizes data in line item tables and can aggregate data from these line item tables at runtime."
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "110",
+        "infoQuestion": "Which is the most flexible SAP S/4HANA Cloud solution for customers?",
+        "infoChoice": [
+            "Hybrid option",
+            "Private option",
+            "Public option",
+            "Community option"
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "111",
+        "infoQuestion": "Which of the following steps do you typically perform during a payment run with the automatic \npayment program?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "Define maximum amounts to be paid per supplier.",
+            "Review the payment proposal exception list.",
+            "Maintain open item selection parameters.",
+            "Rank bank accounts for payment."
+        ],
+        "infoAnswer": [
+            "B",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "112",
+        "infoQuestion": "You are a group cash manager interested in the North American business market What ate the personalization options available to you in SAP Fiori?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "You can manage user access to relevant apps for your team without help from an administrator",
+            "You can adapt the launchpad color theme according to predefined values for the cash report",
+            "You can create a title to take you directly to the cash position of the North America business market",
+            "You can create a title group with all the apps required for you daily business for easy access"
+        ],
+        "infoAnswer": [
+            "A",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "113",
+        "infoQuestion": "You want to create a substitution in Financial Accounting. Which parts do you have to define for each step of the substitution?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "Substitution values",
+            "Check statement",
+            "Callup point",
+            "Prerequisite statement"
+        ],
+        "infoAnswer": [
+            "A",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "114",
+        "infoQuestion": "For which account can you perform account clearing in SAP S4/HANA?",
+        "infoChoice": [
+            "For any balance sheet account managed on a line item basis",
+            "For any G/L account defined as a reconciliation account",
+            "For any account that can be posted in foreign currency",
+            "For any account that is managed on an open item basis"
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "115",
+        "infoQuestion": "Which of the following statement best describe a noted item?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "It has an automatic statistical offsetting entry",
+            "It updates the subledger and the general ledger",
+            "It can be used to remind the user about due payments",
+            "It can be accessed by the payment program"
+        ],
+        "infoAnswer": [
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "116",
+        "infoQuestion": "Which information is part of the Bank Master \nData?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "Data Medium Exchange (DME) details",
+            "Control data",
+            "Information for electronic payment transactions",
+            "Address details"
+        ],
+        "infoAnswer": [
+            "B",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "117",
+        "infoQuestion": "What are key reasons for preferring a new implementation of SAP S/4HANA rather than a system conversion from SAP ERP?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "You want to deploy SAP S/4HANA Cloud.",
+            "You want to use document splitting for the General Ledger.",
+            "You want to integrate the system with SAP Business Technology Platform.",
+            "You want to clean up your system and use SAP Best Practices."
+        ],
+        "infoAnswer": [
+            "A",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "118",
+        "infoQuestion": "You assign currency type 40 to your company code in ledger 0L Which source currency types can you select?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "Company code currency",
+            "Document currency",
+            "Controlling area currency",
+            "Group currency"
+        ],
+        "infoAnswer": [
+            "A",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "119",
+        "infoQuestion": "How can you define a matching method for intercompany reconciliation?",
+        "infoChoice": [
+            "It can be either defined as master data or as ",
+            "configuration",
+            "It must be defined as master data",
+            "it can be automatically determined by a user exit",
+            "It must be defined as configuration"
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "120",
+        "infoQuestion": "Which of the following are valid settlement receives, when you perform settlement for an asset under construction, on a line item basis?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "Profit center",
+            "Fixed asset",
+            "Cost center",
+            "Functional area"
+        ],
+        "infoAnswer": [
+            "B",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "121",
+        "infoQuestion": "What is shared between all deployment options for SAP S/4HANA (Cloud, On-Premise)\nNote: There are 3 correct answers to this questions.",
+        "infoChoice": [
+            "Code line",
+            "Configuration options",
+            "Data model",
+            "User experience",
+            "Upgrade intervals"
+        ],
+        "infoAnswer": [
+            "A",
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "122",
+        "infoQuestion": "You are responsible for configuring document splitting. What are some of the key settings?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "Business transaction variant",
+            "Document type",
+            "Field status variant",
+            "Document number range"
+        ],
+        "infoAnswer": [
+            "A",
+            "B"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "123",
+        "infoQuestion": "Which of the following statement best describes how customer down payments are integrated with Sales & Distribution (SD)",
+        "infoChoice": [
+            "A dowm payment request is created as an SD sales order, which is automatically posted in FI as a noted item.",
+            "A dowm payment request is created as a SD billing document, which is automatically posted in FI as a noted item.",
+            "A dowm payment request is created as an FI noted item, which automatically generates an SD billing document.",
+            "A dowm payment request is created as an FI noted item, which automatically generates an SD sales order."
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "124",
+        "infoQuestion": "You have been asked to set up house banks as part of the implementation. What information do you need?\nNote: There are 3 correct answers to this questions.",
+        "infoChoice": [
+            "Company code",
+            "Payment method",
+            "Bank master data",
+            "Bank control key",
+            "General ledger account"
+        ],
+        "infoAnswer": [
+            "A",
+            "C",
+            "E"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "125",
+        "infoQuestion": "Which parameter indicates that a line can be dunned only with restrictions?",
+        "infoChoice": [
+            "Dunning grouping",
+            "Dunning Key",
+            "Dunning block reason",
+            "Dunning area"
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "126",
+        "infoQuestion": "Besides using the profit center, which options does General Ledger Accounting with document splitting provide to assign a segment to the posting lines?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "BADI implementation (FAGL_DERIVE_SEGMENT)",
+            "Definition of validation rules",
+            "Standard account assignment, using constants",
+            "Assignment of default segments to G/L accounts"
+        ],
+        "infoAnswer": [
+            "A",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "127",
+        "infoQuestion": "When is it possible to set the open item \nmanagement indicator in a general ledger account?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "When an a account is set up as a balance sheet account",
+            "When an a account has a zero balance",
+            "When an a account is set up as a reconciliation account",
+            "When an a account is set up as a secondary cost element"
+        ],
+        "infoAnswer": [
+            "A",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "2",
+        "infoQuestion": "문제 동일 참고\nNote: There are 3 correct answers to this questions.",
+        "infoChoice": [
+            "Run plan assessment cycles for profit center",
+            "Perform flat rate value adjustment for receivables",
+            "Preform valuations of open items in foreign currency",
+            "Perform a top-down distribution in margin analysis",
+            "Regroup receivables and payables on the balance sheet"
+        ],
+        "infoAnswer": [
+            "B",
+            "C",
+            "E"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "23",
+        "infoQuestion": "문제 동일 참고\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "It enriches all relevant balance sheet account lines with the defined splitting characteristics.",
+            "It ensure that you can create complete financial reports per profit center if it is required by the business.",
+            "It enable the automatic creation of additional posting documents for each defined splitting characteristics.",
+            "It enriches all customer and vendor line items with the defined splitting characteristics in the relevant subledgers."
+        ],
+        "infoAnswer": [
+            "A",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "130",
+        "infoQuestion": "To use the SAP Financial Closing cockpit, which steps are required?\nNote: There are 3 correct answers to this questions.",
+        "infoChoice": [
+            "Create task groups.",
+            "Define the person responsible for tasks.",
+            "Create a template.",
+            "Define the task dependencies.",
+            "Release the task dependencies."
+        ],
+        "infoAnswer": [
+            "C",
+            "D",
+            "E"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "131",
+        "infoQuestion": "You must run the foreign currency valuation for both US GAAP and IFRS. which leads to different values for the two different accounting principles. How can you set this up in the system?",
+        "infoChoice": [
+            "Define two valuation methods and assign the ledger groups to the new valuation methods",
+            "Define two valuation area and assign and two extension ledgers with relevant links to accounting principles",
+            "Define two valuation methods and assign the accounting principles to the new valuation methods",
+            "Define two valuation area and assign and two accounting principles with relevant links to ledgers"
+        ],
+        "infoAnswer": "C",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "132",
+        "infoQuestion": "You are starting the fiscal year-end process in Asset Accounting in SAP S/4HAN",
+        "infoChoice": [
+            "What are the year-end closing program checks for Asset Accounting?",
+            "Note: There are 2 correct answers to this questions.",
+            "Asset master data is complete and without errors.",
+            "Posting periods are closed for asset G/L accounts.",
+            "Depreciation is posted in full for all assets.",
+            "The fixed asset fiscal year change is complete."
+        ],
+        "infoAnswer": [
+            "A",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "133",
+        "infoQuestion": "You are getting ready to post you first simple general ledger document using the SAP Fiori app for posting in the test environment. What configuration items do you need to set up to post a simple document?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "Line item text templates must be maintained",
+            "The posting period variant must be created and assigned",
+            "Number range and document types must be maintained",
+            "Automatic account determination must be maintained"
+        ],
+        "infoAnswer": [
+            "B",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "134",
+        "infoQuestion": "What are prerequisites for the 3-way match to work in procurement transactions?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "Invoice receipt posted in reference to the purchase order",
+            "Invoice receipt posted before the goods receipt",
+            "Good receipt posted before the invoice receipt",
+            "Goods receipt posted in reference to the purchase order"
+        ],
+        "infoAnswer": [
+            "A",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "135",
+        "infoQuestion": "Your SAP S4/HANA system is integrated with controlling, You perform cost-of-sales accounting and you profit and loss per profit center. When posting a supplier invoice to a primary cost account, wich field is mandatory by standard procedures?",
+        "infoChoice": [
+            "Functional area",
+            "Segment",
+            "Business area",
+            "Profitability segment"
+        ],
+        "infoAnswer": "C",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "136",
+        "infoQuestion": "What are the characteristics of a company in SAP S/4HANA?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "It is responsible for costs and revenues within an ",
+            "organization.",
+            "It can be assigned to a company code.",
+            "It represents separate areas of operation within an ",
+            "organization.",
+            "It is considered for consolidation."
+        ],
+        "infoAnswer": [
+            "B",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "137",
+        "infoQuestion": "What can you control with the reason code in Accounts Receivable?\nNote: There are 3 correct answers to this questions.",
+        "infoChoice": [
+            "The special G/L indicator for the down payment",
+            "The account where a residual item is posted",
+            "The exclusion of disputed residual items from credit limit checks",
+            "The type of payment notice sent to a customer",
+            "The document type of the payment"
+        ],
+        "infoAnswer": [
+            "B",
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "138",
+        "infoQuestion": "In your SAP S/4HANA system, you want to \narchive the G/L accounts that are not used by the business in any company code. What are prerequisites to archiving all data of a G/L account?\nNote: There are 3 correct answers to this questions.",
+        "infoChoice": [
+            "Set the deletion flag in the company code data of the G/L account.",
+            "The account is not used in any automatic account determination.",
+            "Transactional figures are older than a customizable amount of years.",
+            "Set the deletion flag in the chart of accounts data of the G/L account.",
+            "There are no transaction figures for the account."
+        ],
+        "infoAnswer": [
+            "C",
+            "D",
+            "E"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "139",
+        "infoQuestion": "How does the system determine the \ncorrespondence type of a payment notice?",
+        "infoChoice": [
+            "According to the tolerance group, as long as all tolerance groups carry the same correspondence type",
+            "According to the reason code, as long as all tolerance groups carry the same correspondence type",
+            "According to the reason code, as all reason codes carry the same correspondence type",
+            "According to the tolerance group, as all reason codes carry the same correspondence type"
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "140",
+        "infoQuestion": "You want to configure the tax calculation procedures. What are the main elements you need to define?\nNote: There are 3 correct answers to this questions.",
+        "infoChoice": [
+            "Sequence of steps \\/ Q Account Key",
+            "Condition type",
+            "Tax category",
+            "Tax code"
+        ],
+        "infoAnswer": [
+            "A",
+            "B",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "141",
+        "infoQuestion": "Which of the following statements are valid for financial document number ranges?\nNote: There are 3 correct answers to this questions.",
+        "infoChoice": [
+            "The same financial document number range can be ",
+            "assigned to several document type",
+            "All financial document number ranges can contain ",
+            "numbers and/or letters",
+            "Financial document number ranges defined at client level should NOT overlap",
+            "Financial document number ranges are defined at ",
+            "company code level",
+            "Financial document number ranges must be defined for the year in which they are used"
+        ],
+        "infoAnswer": [
+            "A",
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "142",
+        "infoQuestion": "Which steps are required to create a substitution in Financial Accounting?\nNote: There are 3 correct answers to this questions.",
+        "infoChoice": [
+            "Select the correct call-up point.",
+            "Specify an authorization group.",
+            "Define the substitution rule with its different steps using the formula editor.",
+            "Assign the substitution rule to the controlling area.",
+            "Select Activation Level 2."
+        ],
+        "infoAnswer": [
+            "B",
+            "C",
+            "E"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "143",
+        "infoQuestion": "What items are NOT cleared by automatic \nclearing program?\nNote: There are 3 correct answers to this questions.",
+        "infoChoice": [
+            "Items with- sales and use tax",
+            "Statistical postings",
+            "Items with withholding tax",
+            "Noted items",
+            "Items with value-added tax"
+        ],
+        "infoAnswer": [
+            "B",
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "144",
+        "infoQuestion": "Which statement best describe extension ledgers in SAP S/4HANA?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "Multiple extension ledgers can point to the same ",
+            "underlying ledger",
+            "Extension ledgers can be assigned their own fiscal year variant",
+            "Extension ledgers can be assigned their own posting period variant",
+            "Extension ledgers can have different currencies than the underlying ledger"
+        ],
+        "infoAnswer": [
+            "A",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "145",
+        "infoQuestion": "Which fields of a financial accounting document influence the automatic payment program?\nNote: There are 3 correct answers to this questions.",
+        "infoChoice": [
+            "Payment method",
+            "Payment transaction",
+            "Payment type",
+            "Term of payment",
+            "Baseline date"
+        ],
+        "infoAnswer": [
+            "A",
+            "B",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "146",
+        "infoQuestion": "How does an automatic intercompany asset transfer work?",
+        "infoChoice": [
+            "It assumes that the transfer happens between two ",
+            "independent legal entities",
+            "It determines the relationship type automatically, using ",
+            "the company code",
+            "determines the relationship type automatically, using the company ID",
+            "It does NOT allow a transfer to happen within a single legal entity"
+        ],
+        "infoAnswer": "A",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "147",
+        "infoQuestion": "Which elements define the integration of asset acquisitions with the general ledger?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "Valuation Area",
+            "Depreciation Area",
+            "Asset Class",
+            "Depreciation Keys"
+        ],
+        "infoAnswer": [
+            "B",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "148",
+        "infoQuestion": "Which of the following is technical year-end \nclosing activity in SAP S4/HANA?",
+        "infoChoice": [
+            "Foreign currency valuation must be posted",
+            "Accruals must be posted",
+            "Balance sheet adjustments must be posted",
+            "Ledger balances must be carried forward"
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "149",
+        "infoQuestion": "You are responsible for implementing Asset Accounting. You are provided with the legacy data of various assets and their grouping information based on classifications, useful life, and depreciation terms. What configuration step would you initiate to maintain these categories in SAP S/4HANA?",
+        "infoChoice": [
+            "Define depreciation areas for each category of legacy asset.",
+            "Define depreciation areas to transfer all the legacy data.",
+            "Define asset classes and maintain their attributes.",
+            "Define depreciation keys and calculation keys."
+        ],
+        "infoAnswer": "C",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "150",
+        "infoQuestion": "What do you define when configuring asset classes?\nNote: There are 3 correct answers to this questions.",
+        "infoChoice": [
+            "Transaction types",
+            "Number ranges",
+            "Screen layout rule",
+            "Posting keys",
+            "Account determination"
+        ],
+        "infoAnswer": [
+            "B",
+            "C",
+            "E"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "151",
+        "infoQuestion": "A general ledger account is defined with the account type \"Nonoperating Expense or Income\" Where can this account be used?",
+        "infoChoice": [
+            "Profit and loss account that is used in margin analysis",
+            "Profit and loss account that is used in margin analysis and profit center accounting",
+            "Profit and loss account that is used in overhead management accounting",
+            "Profit and loss account that is used in profit center accounting"
+        ],
+        "infoAnswer": "C",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "152",
+        "infoQuestion": "You want to configure the default baseline data for the payment terms of an incoming invoice. From which date can you derive the baseline date?\nNote: There are 3 correct answers to this questions.",
+        "infoChoice": [
+            "Posting date",
+            "Document date",
+            "Value date",
+            "Entry date",
+            "Goods receipt date"
+        ],
+        "infoAnswer": [
+            "A",
+            "B",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "153",
+        "infoQuestion": "You need to post customer invoice though an interface with a non-SAP system. You want to define a new document type with a specific document number range that matches the document numbers of the source system. How do you define the document number range",
+        "infoChoice": [
+            "You must use external number assignment",
+            "You must use internal number assignment",
+            "You can use internal or external number assignment, but only if it is continuous",
+            "You can use internal or external number assignment"
+        ],
+        "infoAnswer": "A",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "154",
+        "infoQuestion": "How can you create an asset under construction?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "Automatically, when setting capex cost from an internal order",
+            "Automatically, when creating an investment measure",
+            "Automatically, when setting capex cost from a WBS element",
+            "Manually (transaction AS01), using a specific asset class"
+        ],
+        "infoAnswer": [
+            "B",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "155",
+        "infoQuestion": "You perform foreign currency valuation for open items of you supplier accounts. The valuations will be used only for period end reposting and should them be reversed. What account does the system use to post the valuation differences?",
+        "infoChoice": [
+            "Alternative reconciliation G/L account",
+            "Individual supplier accounts with special G/L indicator",
+            "Supplier reconciliation G/L account",
+            "Adjustment G/L account for foreign currency"
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "156",
+        "infoQuestion": "You are configuring asset-related posting of depreciation areas in Asset Accounting for a company code that uses the ledger approach to parallel valuation. Which of the following setting would lead to an error?",
+        "infoChoice": [
+            "Area posts depreciation only",
+            "Area posts APC immediately, depreciation periodically",
+            "Area posts in real time",
+            "Area posts not post"
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "157",
+        "infoQuestion": "What area the maintenance levels of a screen layout rule for asset master data?\nNote: There are 3 correct answers to this questions.",
+        "infoChoice": [
+            "Group asset",
+            "Asset class",
+            "Asset subnumber",
+            "Main asset number",
+            "Depreciation area"
+        ],
+        "infoAnswer": [
+            "B",
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "158",
+        "infoQuestion": "Which of the following closing activities is a \nso-called technical closing step?",
+        "infoChoice": [
+            "Process purchase order accruals",
+            "Perform asset depreciation run",
+            "Perform valuations of open items in foreign currency",
+            "Close the previous period in Material Management(MM)"
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "159",
+        "infoQuestion": "You post a purchase order. For which expenses does the system calculate accruals?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "Consulting Services",
+            "Insurance premiums",
+            "Fixed asset purchases",
+            "Raw material purchases"
+        ],
+        "infoAnswer": [
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "160",
+        "infoQuestion": "Which prerequisites must be fulfilled to allow for negative posting of journal entries?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "The posting key must allow negative postings",
+            "The company code must allow negative postings",
+            "The reversal reason must be configured to allow ",
+            "negative postings",
+            "The reversal accounts must be configured to allow ",
+            "negative postings"
+        ],
+        "infoAnswer": [
+            "B",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "161",
+        "infoQuestion": "What archiving step must precede archiving a supplier invoice posted directly to FI?",
+        "infoChoice": [
+            "Archive accounts payables master data",
+            "Archive data in CO",
+            "Archive FI transaction figures",
+            "Perform compression run"
+        ],
+        "infoAnswer": "C",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "162",
+        "infoQuestion": "Which parameters can you specify directly when you create a new correspondence type?\nNote: There are 3 correct answers to this questions.",
+        "infoChoice": [
+            "Reason code required",
+            "Company code required",
+            "Number of date fields requied",
+            "Document number required",
+            "Account required"
+        ],
+        "infoAnswer": [
+            "B",
+            "C",
+            "E"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "163",
+        "infoQuestion": "Which date is used to determine the depreciation star date?",
+        "infoChoice": [
+            "Baseline date",
+            "Acquisition date",
+            "Posting date",
+            "Asset value date"
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "164",
+        "infoQuestion": "You 'd like to set up low values asset (LVA) \nmanagement. What do you need to do?",
+        "infoChoice": [
+            "Define two separate asset classes to manage LVA using individual or collective management",
+            "Specify the minimum amount for LVA at three levels: company code, depreciation area and asset class",
+            "Specify the minimum amount for LVA at two levels: company code and chart of depreciation",
+            "Define a base unit for measure for LVA in individual management"
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "165",
+        "infoQuestion": "You want to post journal entries in a special \nperiod. Which conditions must be met?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "You must enter a posting date in the last posting period",
+            "The balance carry-forward to the new fiscal year must have happened",
+            "The special period must be open for posting in the period control",
+            "The last posting period must be open for posting in the period control"
+        ],
+        "infoAnswer": [
+            "A",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "166",
+        "infoQuestion": "What are the features of the Accrual Engine in SAP S/4HANA?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "All accrual calculations must be reviewed and approved before posting.",
+            "Accrual postings with a maximum of two line items are supported.",
+            "All currencies of the general ledger are supported.",
+            "The fiscal year variant of the general ledger is supported."
+        ],
+        "infoAnswer": [
+            "C",
+            "D"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "167",
+        "infoQuestion": "You are running an international business and you want to set up separate legal entities to run operations and perform accounting activities. Which organizational unit do you need to create for each legal entity?",
+        "infoChoice": [
+            "Segment",
+            "Company Code",
+            "Consolidation unit",
+            "Company"
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "168",
+        "infoQuestion": "How does SAP S4/HANA support the treatment of taxes?\nNote: There are 3 correct answers to this questions.",
+        "infoChoice": [
+            "It checks the tax amount entered and automatically ",
+            "calculates the tax",
+            "It post the tax amount to tax accounts",
+            "It checks the tax codes and automatically updates the taxes based on changes by tax authorities",
+            "It adjust the tax codes and automatically updates the procedure",
+            "It performs tax adjustments for cash discounts and other forms of deductions"
+        ],
+        "infoAnswer": [
+            "A",
+            "B",
+            "E"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "169",
+        "infoQuestion": "The country that your company code operates in has defined a new VAT tax rate percentage of 15%, which will become effective at the star of the next fiscal year. You create the new VAT codes 05 and 15 to cover this requirement. How can you ensure that users use the new tax codes when entering tax relevant documents starting next year?",
+        "infoChoice": [
+            "Enter the new tax codes as default for users who have authorization to post general ledger transactions after balance carry forward is done",
+            "Enter the appropriate new VAT code in the tax category field of the relevant expense and revenue G/L accounts after balance carry forward is done",
+            "Create a substitution that changes the deprecated VAT code when relevant new one when entering documents with posting data in the new year",
+            "Create a validation that issues an error when the user uses a deprecated VAT code when entering documents with posting data in the new year"
+        ],
+        "infoAnswer": "D",
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "170",
+        "infoQuestion": "What area of the benefits of how data handled in SAP S/4HANA?\nNote: There are 2 correct answers to this questions.",
+        "infoChoice": [
+            "The data is aggregated in real time from any line item table.",
+            "The data is constantly auto-archived to optimize memory usage.",
+            "The data is available in real time at line item detail.",
+            "The data is summarized into higher levels of aggregates to accelerate system performance."
+        ],
+        "infoAnswer": [
+            "A",
+            "C"
+        ],
+        "infoDesc": ""
+    },
+    {
+        "infoType": "SAP FI",
+        "infoTime": "SAP FI",
+        "infoNumber": "171",
+        "infoQuestion": "How does the system perform the normal reversal of a journal entry?",
+        "infoChoice": [
+            "It creates an inverse posting by resenting the transaction figures for cleared documents.",
+            "It creates an inverse posting by increasing the transaction figures.",
+            "It creates an inverse posting by decreasing the transaction figures.",
+            "It creates an inverse posting by resenting the transaction figures."
+        ],
+        "infoAnswer": "B",
+        "infoDesc": ""
+    }
+]

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>퀴즈</title>
+</head>
+<body>
+    <h1>{{ question['infoNumber'] }}: {{ question['infoQuestion'] }}</h1>
+
+    <!-- 답변 제출 폼 -->
+    <form method="POST" action="{{ url_for('quiz', question_index=question_index) }}">
+        {% for letter, choice in choices %}
+            <label>
+                <input type="checkbox" name="answer" value="{{ letter }}">
+                {{ letter }}. {{ choice }}
+            </label><br>
+        {% endfor %}
+        <button type="submit">제출</button>
+    </form>
+
+    <!-- 정답 여부 표시 -->
+    <p>{{ result }}</p>
+
+    <!-- 다음 질문 버튼 -->
+    <form method="GET" action="{{ url_for('quiz') }}">
+        <input type="hidden" name="question_index" value="{{ question_index + 1 }}">
+        <button type="submit" 
+                {% if question_index + 1 >= quiz_length %}disabled{% endif %}>
+            다음 질문
+        </button>
+    </form>
+
+    <!-- 퀴즈 종료 메시지 -->
+    {% if question_index + 1 >= quiz_length %}
+        <p>퀴즈가 종료되었습니다! 모든 질문에 답변해 주셔서 감사합니다.</p>
+    {% endif %}
+</body>
+</html>
