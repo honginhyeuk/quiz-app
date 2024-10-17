@@ -45,6 +45,6 @@ def quiz():
         result=result,
         quiz_length=len(quiz_data)  # 총 질문 수 전달
     )
-
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=5000, debug=True)
+
