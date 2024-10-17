@@ -1,1 +1,1 @@
-web: python SAP_FI_FLASK.PY
+web: gunicorn SAP_FI_FLASK:app --bind 0.0.0.0:5000
