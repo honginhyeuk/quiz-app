@@ -4,8 +4,6 @@ import os
 import random
 from time import localtime,time 
 
-tm = localtime(time())
-random.seed(tm.tm_sec)
 app = Flask(__name__)
 
 # JSON 파일 로드 함수
@@ -17,11 +15,15 @@ def load_quiz_data():
 
 quiz_data = load_quiz_data()
 
-# 질문의 순서를 무작위로 섞기
-random.shuffle(quiz_data)
 
 @app.route("/", methods=["GET", "POST"])
 def quiz():
+    
+
+    # 질문의 순서를 무작위로 섞기
+    tm = localtime(time())
+    random.seed(tm.tm_sec)
+    random.shuffle(quiz_data)
     # URL에서 question_index 가져오기, 기본값은 0
     question_index = int(request.args.get("question_index", 0))
     result = request.args.get("result", "")
