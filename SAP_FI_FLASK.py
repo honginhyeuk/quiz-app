@@ -2,7 +2,10 @@ from flask import Flask, render_template, request, redirect, url_for
 import json
 import os
 import random
+from time import localtime,time 
 
+tm = localtime(time())
+random.seed(tm.tm_sec)
 app = Flask(__name__)
 
 # JSON 파일 로드 함수
@@ -13,7 +16,6 @@ def load_quiz_data():
         return json.load(file)
 
 quiz_data = load_quiz_data()
-
 
 # 질문의 순서를 무작위로 섞기
 random.shuffle(quiz_data)
