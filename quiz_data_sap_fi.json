@@ -2030,7 +2030,7 @@
         "infoType": "SAP FI",
         "infoTime": "SAP FI",
         "infoNumber": "2",
-        "infoQuestion": "문제 동일 참고\nNote: There are 3 correct answers to this questions.",
+        "infoQuestion": "Which closing activities are performed for external reporting as per SAP best practices?문제 동일 참고\nNote: There are 3 correct answers to this questions.",
         "infoChoice": [
             "Run plan assessment cycles for profit center",
             "Perform flat rate value adjustment for receivables",
@@ -2049,7 +2049,7 @@
         "infoType": "SAP FI",
         "infoTime": "SAP FI",
         "infoNumber": "23",
-        "infoQuestion": "문제 동일 참고\nNote: There are 2 correct answers to this questions.",
+        "infoQuestion": "What does the document splitting funtion do?문제 동일 참고\nNote: There are 2 correct answers to this questions.",
         "infoChoice": [
             "It enriches all relevant balance sheet account lines with the defined splitting characteristics.",
             "It ensure that you can create complete financial reports per profit center if it is required by the business.",
