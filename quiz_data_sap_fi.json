@@ -132,7 +132,7 @@
         "infoType": "SAP FI",
         "infoTime": "SAP FI",
         "infoNumber": "9",
-        "infoQuestion": "",
+        "infoQuestion": "You post an unplanned depreciation to an asset. What is the effect on FI-AA and FI-GL?",
         "infoChoice": [
             "Posting is done in FI-AA in real time and in FI-GL once the periodic posting program has run.",
             "Posting is done in FI-AA and in FI-GL online and in real time.",
