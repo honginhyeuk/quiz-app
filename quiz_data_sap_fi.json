@@ -805,7 +805,6 @@
         "infoNumber": "49",
         "infoQuestion": "You want to implement purchase order accruals in SAP S/4HAN A. Which of the following use cases are relevant? Note: There are 2 correct answe-rs to this que-stion.",
         "infoChoice": [
-            "Which of the following use cases are relevant?",
             "Purchase of fixed assets (using direct capitalization method)",
             "Purchase of consumable materials",
             "Purchase of raw materials for inventory",
