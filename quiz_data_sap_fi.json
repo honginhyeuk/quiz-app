@@ -255,7 +255,8 @@
             "Account group",
             "Short text",
             "Alternative account number",
-            "Field status group"
+            "Field status group",
+            "Group account number"
         ],
         "infoAnswer": [
             "A",
@@ -434,7 +435,8 @@
             "Balance Sheet Account",
             "Secondary Costs",
             "Non-operating Expense or Income",
-            "Primary cost or Revenue"
+            "Primary cost or Revenue",
+            "Cash account"
         ],
         "infoAnswer": [
             "B",
@@ -617,7 +619,8 @@
             "Actual inventory method",
             "Periodic inventory method",
             "Cycle counting method",
-            "Standard inventory method"
+            "Standard inventory method",
+            "Continuous inventory method"
         ],
         "infoAnswer": [
             "B",
@@ -635,7 +638,8 @@
             "Determine the exchange rate type",
             "Define the document type for the valuation posting",
             "Determine the G/L accounts for the valuation posting",
-            "Define the posting and reversal date for the valuation posting"
+            "Define the posting and reversal date for the valuation posting",
+            "Define the valuation procedure"
         ],
         "infoAnswer": [
             "A",
@@ -752,7 +756,8 @@
             "Secondary costs resulting from an assessment",
             "Plan depreciation amounts",
             "Primary costs resulting from a distribution",
-            "Budgeted costs for a cost center"
+            "Budgeted costs for a cost center",
+            "Intercompany postings"
         ],
         "infoAnswer": [
             "A",
@@ -837,7 +842,8 @@
             "Profit centers",
             "Segments",
             "Document splitting",
-            "Profitability segments"
+            "Profitability segments",
+            "Business areas"
         ],
         "infoAnswer": [
             "A",
@@ -888,7 +894,8 @@
             "00 = Document currency",
             "30 Group currency",
             "60 Global company currency",
-            "10 Company code currency"
+            "10 Company code currency",
+            "40 Hard currency"
         ],
         "infoAnswer": [
             "A",
@@ -906,7 +913,8 @@
             "Sales organization",
             "Plant",
             "Segment",
-            "Profit center"
+            "Profit center",
+            "Business area"
         ],
         "infoAnswer": [
             "C",
@@ -941,7 +949,8 @@
             "Approve the dunning proposal",
             "Schedule the dunning run",
             "Maintain the parameters of the dunning program",
-            "Start the dunning printout"
+            "Start the dunning printout",
+            "Change the dunning proposal"
         ],
         "infoAnswer": [
             "B",
@@ -1124,7 +1133,8 @@
             "They generate postings that do not balance.",
             "They can be accessed by the payment program and the dunning program.",
             "They update the general ledger in Entry View only.",
-            "They generate statistical postings."
+            "They generate statistical postings.",
+            "They are managed as open items on customer and vendor accounts."
         ],
         "infoAnswer": [
             "B",
@@ -1142,7 +1152,8 @@
             "The exclusion of disputed residual items from credit limit checks",
             "The account where a residual item is posted",
             "The type of payment notice sent to a customer",
-            "The special G/L indicator for the down payment"
+            "The special G/L indicator for the down payment",
+            "The document type of the payment"
         ],
         "infoAnswer": [
             "A",
@@ -1227,7 +1238,8 @@
             "Human Capital Management",
             "Contingent Workforce",
             "Travel",
-            "Sales"
+            "Sales",
+            "Procurement"
         ],
         "infoAnswer": [
             "B",
